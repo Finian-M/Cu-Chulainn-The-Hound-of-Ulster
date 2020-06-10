@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic:100,200,300,400,500,600,700&display=swap');
+
+
+/* ----------------------------------------------------------- COLOURS */
+.bg-color-main{
+    background-color: #941c27; /* darkred */
+}
+
+/* ----------------------------------------------------------- IMAGES */
+
+.header-image-right{
+    background: url('../images/cu_chulainn_statue.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    text-align:center;
+    vertical-align: center;
+}
+
+.header-image-left{
+    background: url('../images/cu_chulainn_statue.jpg');
+    background-position: right, left;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    vertical-align: center;
+}
+
+
+.intro-image{
+    background: url('../images/cuchulainn(resize).jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 900px;
+    text-align: left;
+    /*height: auto;
+    width: auto;*/
+}
+
+.setanta-and-the-hound{
+    background: url('../images/cuchulainn_slays_hound_(orig)(resize).jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    max-height: 900px;
+    max-width: 200%;
+}
+
+.death_of_cuchulainn{
+    background: url('../images/the_death_of_cuchulainn.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 900px;
+    text-align: right;
+}
+
+
+/* --------------------------------- PADDING / SPACING */
+
+text-format-intro-image{
+    text-align: left;
+}
+
+text-format-death_of_cuchulainn{
+    text-align: right;
+}
